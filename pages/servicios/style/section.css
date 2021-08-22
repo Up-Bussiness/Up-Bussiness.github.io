@@ -1,0 +1,99 @@
+/*NORMAL SECTION*/
+	section
+	{
+	padding: 10vh 0 0 0;
+	/*border: solid black 2px;*/
+	}
+	h1
+	{
+	text-align: center;
+	font-size: 4vw;
+	}
+	h2
+	{
+	margin: 0 0 0 5vw;
+	font-size: 2.2vw;
+	}
+	.pp
+	{
+	margin: 1.8vh 10vw 7vh 5vw;
+	font-size: 1.5vw;
+	text-align: justify;
+	}
+	section a
+	{
+	font-weight: bolder;
+	color: rgb(1, 114, 16);
+	}
+/*RESPONSIVE SECTION*/
+	@media screen and (max-width: 900px)
+	{
+		h2
+		{
+		font-size: 2.5vw;
+		}
+		.pp
+		{
+		font-size: 1.8vw;
+		}
+	}
+	@media screen and (max-width: 800px)
+	{
+		h1
+		{
+		font-size: 7vw;
+		}		
+		h2
+		{
+		font-size: 2.8vw;
+		}
+		.pp
+		{
+		font-size: 2vw;
+		}		
+	}
+	@media screen and (max-width: 600px)
+	{
+		h1
+		{
+		font-size: 7vw;
+		}		
+		h2
+		{
+		font-size: 3vw;
+		}
+		.pp
+		{
+		font-size: 2.5vw;
+		}		
+	}
+	@media screen and (max-width: 500px)
+	{
+		h1
+		{
+		font-size: 8vw;
+		}		
+		h2
+		{
+		font-size: 3.5vw;
+		}
+		.pp
+		{
+		font-size: 2.8vw;
+		}		
+	}	
+	@media screen and (max-width: 400px)
+	{
+		h1
+		{
+		font-size: 9vw;
+		}
+		h2
+		{
+		font-size: 4.5vw;
+		}
+		.pp
+		{
+		font-size: 3.5vw;
+		}		
+	}

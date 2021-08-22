@@ -1,0 +1,279 @@
+/*NORMAL SECTION*/
+	section
+	{
+	padding: 10vh 0 0 0;
+	/*border: solid black 2px;*/
+	height: 135vh;
+	}
+	h1
+	{
+	text-align: center;
+	font-size: 4vw;
+	}
+	h2
+	{
+	text-align: center;
+	font-size: 2vw;
+	}
+	a
+	{
+	font-weight: bolder;
+	color: rgb(1, 114, 16);
+	}
+	#d1
+	{
+	position: absolute;
+	margin: 0 0 0 10vw;
+	width: 20vw;
+	border: solid black 2px;
+	}
+		#d1 p
+		{
+		margin: 1vh 1vw 1vh 1vw;
+		text-align: justify;
+		font-size: 1.3vw;
+		}
+	#d2
+	{
+	position: absolute;
+	margin: 0 0 0 40vw;
+	width: 20vw;
+	border: solid black 2px;
+	}
+		#d2 p
+		{
+		margin: 1vh 1vw 1vh 1vw;
+		text-align: justify;
+		font-size: 1.3vw;
+		}
+	#d3
+	{
+	position: absolute;
+	margin: 0 0 0 70vw;
+	width: 20vw;
+	border: solid black 2px;
+	}
+		#d3 p
+		{
+		margin: 1vh 1vw 1vh 1vw;
+		text-align: justify;
+		font-size: 1.3vw;
+		}
+	#d4
+	{
+	position: absolute;
+	margin: 40vh 0 0 10vw;
+	width: 20vw;
+	border: solid black 2px;
+	}
+		#d4 p
+		{
+		margin: 1vh 1vw 1vh 1vw;
+		text-align: justify;
+		font-size: 1.3vw;
+		}
+/*RESPONSIVE SECTION*/
+	@media screen and (max-width: 900px)
+	{
+		h1
+		{
+		font-size: 5vw;
+		}
+		h2
+		{
+		text-align: center;
+		font-size: 3vw;
+		}
+		#d1
+		{
+		position: absolute;
+		margin: 0 0 0 15vw;
+		width: 30vw;
+		border: solid black 2px;
+		border-radius: 10px;
+		}
+			#d1 p
+			{
+			margin: 1vh 1vw 1vh 1vw;
+			text-align: justify;
+			font-size: 2vw;
+			}		
+		#d2
+		{
+		position: absolute;
+		margin: 0 0 0 55vw;
+		width: 30vw;
+		border: solid black 2px;
+		border-radius: 10px;
+		}
+			#d2 p
+			{
+			margin: 1vh 1vw 1vh 1vw;
+			text-align: justify;
+			font-size: 2vw;
+			}
+		#d3
+		{
+		position: absolute;
+		margin: 30vh 0 0 15vw;
+		width: 30vw;
+		border: solid black 2px;
+		border-radius: 10px;
+		}
+			#d3 p
+			{
+			margin: 1vh 1vw 1vh 1vw;
+			text-align: justify;
+			font-size: 2vw;
+			}
+		#d4
+		{
+		position: absolute;
+		margin: 30vh 0 0 55vw;
+		width: 30vw;
+		border: solid black 2px;
+		border-radius: 10px;
+		}
+			#d4 p
+			{
+			margin: 1vh 1vw 1vh 1vw;
+			text-align: justify;
+			font-size: 2vw;
+			}
+	}
+	@media screen and (max-width: 600px)
+	{
+		h1
+		{
+		font-size: 7vw;
+		}
+		h2
+		{
+		text-align: center;
+		font-size: 4.5vw;
+		}
+		#d1
+		{
+		position: absolute;
+		margin: 0 0 0 10vw;
+		width: 35vw;
+		border: solid black 2px;
+		border-radius: 10px;
+		}
+			#d1 p
+			{
+			margin: 1vh 1.5vw 1vh 1.5vw;
+			text-align: justify;
+			font-size: 3vw;
+			}		
+		#d2
+		{
+		position: absolute;
+		margin: 0 0 0 55vw;
+		width: 35vw;
+		border: solid black 2px;
+		border-radius: 10px;
+		}
+			#d2 p
+			{
+			margin: 1vh 1.5vw 1vh 1.5vw;
+			text-align: justify;
+			font-size: 3vw;
+			}
+		#d3
+		{
+		position: absolute;
+		margin: 40vh 0 0 10vw;
+		width: 35vw;
+		border: solid black 2px;
+		border-radius: 10px;
+		}
+			#d3 p
+			{
+			margin: 1vh 1vw 1vh 1vw;
+			text-align: justify;
+			font-size: 3vw;
+			}
+		#d4
+		{
+		position: absolute;
+		margin: 40vh 0 0 55vw;
+		width: 35vw;
+		border: solid black 2px;
+		border-radius: 10px;
+		}
+			#d4 p
+			{
+			margin: 1vh 1vw 1vh 1vw;
+			text-align: justify;
+			font-size: 3vw;
+			}
+	}
+	@media screen and (max-width: 400px)
+	{
+		h1
+		{
+		font-size: 10vw;
+		}
+		h2
+		{
+		text-align: center;
+		font-size: 6vw;
+		}
+		#d1
+		{
+		position: absolute;
+		margin: 0 0 0 20vw;
+		width: 60vw;
+		border: solid black 2px;
+		border-radius: 10px;
+		}
+			#d1 p
+			{
+			margin: 1vh 1.5vw 1vh 1.5vw;
+			text-align: justify;
+			font-size: 4vw;
+			}		
+		#d2
+		{
+		position: absolute;
+		margin: 30vh 0 0 20vw;
+		width: 60vw;
+		border: solid black 2px;
+		border-radius: 10px;
+		}
+			#d2 p
+			{
+			margin: 1vh 1.5vw 1vh 1.5vw;
+			text-align: justify;
+			font-size: 4vw;
+			}
+		#d3
+		{
+		position: absolute;
+		margin: 60vh 0 0 20vw;
+		width: 60vw;
+		border: solid black 2px;
+		border-radius: 10px;
+		}
+			#d3 p
+			{
+			margin: 1vh 1vw 1vh 1vw;
+			text-align: justify;
+			font-size: 4vw;
+			}
+		#d4
+		{
+		position: absolute;
+		margin: 85vh 0 0 20vw;
+		width: 60vw;
+		border: solid black 2px;
+		border-radius: 10px;
+		}
+			#d4 p
+			{
+			margin: 1vh 1vw 1vh 1vw;
+			text-align: justify;
+			font-size: 3vw;
+			}
+	}
