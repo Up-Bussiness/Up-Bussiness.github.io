@@ -1,0 +1,187 @@
+/*Normal*/
+	#paso2
+	{
+	position: absolute;
+	margin: 95vh 0 0 0;
+	height: 60vh;
+	width: 100%;
+	perspective: 9000px;
+	background-color: transparent;
+	}
+
+		.movimiento
+		{
+		position: relative;
+		width: 100%;
+		height: 100%;
+		text-align: center;
+		transition: transform 0.5s;
+		transform-style: preserve-3d;
+		}
+
+		#paso2:hover .movimiento
+		{
+		transform: rotateY(180deg);
+		}
+
+		.front-card-2, .back-card-2
+		{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
+		}
+
+		.front-card-2
+		{
+		background-color: #286E8B;
+		color: white;
+		}
+			.front-card-2 p
+			{
+			position: absolute;
+			font-size: 7vw;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			}
+
+		.back-card-2
+		{
+		background-color: #2980b9;
+		color: white;
+		transform: rotateY(180deg);
+		}
+			#d2
+			{
+			/*border: solid black 2px;*/
+			height: 100%;
+			width: 50%;
+			}
+				#p1d2
+				{
+				font-size: 2.5vw;
+				margin: 20vh 2.5vw 0 2.5vw;
+				}
+				#i1d2
+				{
+				position: absolute;
+				top: 7.5%;
+				right: 10%;
+				height: 85%;
+				border-radius: 10px;
+				}
+		#i2d2
+		{
+		display: none;
+		}
+		#p2d2
+		{
+		display: none;
+		}
+@media screen and (max-width: 900px)
+{
+	#p1d2
+	{
+	display: none;
+	}
+	#p2d2
+	{
+	display: inherit;
+	/*border: solid black 2px;*/
+	font-size: 3.5vw;
+	margin: 20vh 5vw 0 3vw;
+	}
+
+	#i1d2
+	{
+	display: none;
+	}
+	#i2d2
+	{
+	display: inherit;
+	position: absolute;
+	height: 85%;
+	top: 7.5%;	
+	right: 5%;
+	border-radius: 10px;
+	}
+
+}
+@media screen and (max-width: 800px)
+{
+	#d2
+	{
+	/*border: solid black 2px;*/
+	height: 100%;
+	width: 100%;
+	}
+	#p2d2
+	{
+	display: inherit;
+	font-size: 4vw;
+	margin: 10vh 3vw 0 3vw;
+	}
+	#paso2
+	{
+	position: absolute;
+	margin: 140vh 0 0 0;
+	height: 100vh;
+	perspective: 9000px;
+	background-color: transparent;
+	}
+	#i2d2
+	{
+	width: 70%;
+	height: auto;
+	top: 25%;	
+	right: 15%;
+	}
+}
+@media screen and (max-width: 600px)
+{
+	#p2d2
+	{
+	display: inherit;
+	font-size: 5vw;
+	margin: 10vh 3vw 0 3vw;
+	}
+	#paso2
+	{
+	position: absolute;
+	margin: 140vh 0 0 0;
+	height: 90vh;
+	}	
+	#i2d2
+	{
+	width: 85%;
+	height: auto;
+	top: 25%;	
+	right: 7.5%;
+	}
+}
+@media screen and (max-width: 400px)
+{
+	#paso2
+	{
+	position: absolute;
+	margin: 140vh 0 0 0;
+	height: 70vh;
+	perspective: 9000px;
+	background-color: transparent;
+	}
+	#p2d2
+	{
+	display: inherit;
+	font-size: 7vw;
+	margin: 10vh 3vw 0 3vw;
+	}
+	#i2d2
+	{
+	width: 85%;
+	height: auto;
+	top: 30%;	
+	right: 7.5%;
+	}
+}
